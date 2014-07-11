@@ -1,0 +1,222 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button, input{margin:0;padding:0;box-sizing:border-box;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{color:#333;outline:0;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+
+
+/* module */
+/*公共模块*/
+.f-c999{color: #999;}
+.f-c666{color: #666;}
+.f-price{color: #ff3636;}
+.f-plug{height: .9em;}
+.f-cf2{background: #f2f2f2;}
+.f-hide{display: none;}
+.f-clear{ display:block; content:''; clear:both; visibility:hidden}
+.f-blck{display: block;}
+.m-itm{display: -webkit-box;padding: 10px 0;border-bottom: 1px solid #dadada;}
+.m-itm .img{width: 5.71em;height: 5.71em;display: block;}
+.m-itm .con{-webkit-box-flex: 1;}
+.m-itm .con p{padding: 3px 0;font-size: 0.857em;}
+.m-itm .con .desc{font-size: 1em;}
+.m-itm .detail{padding-left:10px;}
+.m-itm .detail .price{margin-right: 33px;}
+.m-name-value .uli{padding: 5px 0 5px 5.714em;}
+.m-name-value .uli .labl{margin-left: -5.714em;text-align: left;color: #999;float: left;width: 5.714em;}
+.m-btn-box {padding: 20px 15px 8px 15px;margin: 0 auto;}
+.m-btn-box .load-btn{color: #666;display: block;width: 10.71em;margin: 0 auto;text-align: center;}
+.m-no-result-tip{margin: 7.14em auto;}
+.m-no-result-tip .img{display: block;margin: 0 auto;}
+.m-no-result-tip .tip{text-align: center;margin-top: 1em;}
+.m-logistics {
+	padding: 1.071429em 0;
+	border-bottom: 1px solid #dadada;
+}
+.m-logistics .uli{padding-left: 8.5em;font-size: 0.857143em}
+.m-logistics .uli .labl{width: 8.5em;margin-left: -8.5em;}
+.m-logistics .orderNum {
+	padding: 0.714286em 0 1.071429em 0;
+	border-bottom: 1px solid #DADADA;
+}
+.m-logistics .title {
+	padding-top: 1.071429em;
+	padding-bottom: 0.5em;
+}
+.m-logistics .installInfo {
+	font-size: 0.857143em;
+	padding-top: 0.833333em;
+}
+.m-logistics .installInfo label {
+	color: #999999;
+}
+.m-logisticsFollow {
+	font-size: 0.857143em;
+	background: url(images/bg_logistics.png) no-repeat 6px 0;
+	background-size: 3px 100%;
+}
+.m-logisticsFollow .item {
+	position: relative;
+	line-height: 1.4em;
+	margin-top: 1.25em;
+	padding-left: 35px;
+	color: #999999;
+}
+.m-logisticsFollow .item:first-of-type {
+	margin-top: 1.666667em;
+}
+.m-logisticsFollow .item a {
+	color: #00b4fd;
+}
+.m-logisticsFollow .z-crt {
+	color: #333333;
+}
+.m-logisticsFollow .item::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15px;
+	height: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #999999;
+}
+.m-logisticsFollow .z-crt::after {
+	background-color: #ff3636;
+}
+.m-scoreList {
+	padding: 9.714286em 0 40px 0;
+}
+.m-scoreList .item {
+	display: -webkit-box;
+	margin-top: 1.428571em;
+}
+.m-scoreList .item:first-of-type {
+	margin-top: 0;
+}
+.m-scoreList .item .infoBox {
+	-webkit-box-flex: 1;
+	font-size: 0.857143em;
+	line-height: 1.4em;
+}
+.m-scoreList .tip {
+	color: #999999;
+}
+.m-scoreList .item .scoreBox {
+	text-align: right;
+}
+.m-scoreList .item .score {
+	color: #ff3333;
+}
+.u-loadmore {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #666666;
+	background-color: #fff;
+}
+
+/* function */
+
+.main {
+	margin: 0 auto;
+	max-width: 640px;
+}
+.g-wrap {
+	width: 90.625%;
+	margin: 0 auto;
+}
+/*.orderli订单列表*/
+.order-no{padding: .5em 4.687% .6em;border-bottom: 1px solid #dadada;}
+.order-no .time{float: right;}
+.orderli .detail .origin{position: relative;}
+.orderli .detail .origin .go-logist{float: right;font-size: 1.17em;color: #00b4fd;padding: 0.5em;margin-top: -0.5em;margin-right: -0.5em;}
+.orderli .other{display: none;}
+.order-charge{margin: 10px 4.687%;}
+.order-charge .state{float: right;}
+.orderli .more{padding:10px 0;border-bottom: 1px solid #dadada;}
+.orderli .more .load-btn{color: #00b4fd;display: block;width: 10.71em;margin: 0 auto;text-align: center;}
+/*订单详情页*/
+.user-info{padding: 10px 4.687%;border-bottom: 1px solid #dadada;}
+.user-info .user{padding: 4px 0 10px 0;}
+.user-info .user span{color: #333;}
+.user-info .user .name{margin-right: 2.5em;}
+.user-info .address{font-size: 0.857em;}
+.order-detail{border-top: 1px solid #dadada;padding: 10px 4.687% 30px;}
+/*会员中心*/
+.memberHd {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+}
+.member {
+	display: -webkit-box;
+	padding: 1.071429em 4.6875%;
+	border-bottom: 1px solid #dadada;
+}
+.member img {
+	display: block;
+	width: 4.071429em;
+	height: 4.071429em;
+}
+.member .info {
+	-webkit-box-flex: 1;
+	padding: 0.785714em 0 0 0.678571em;
+}
+.member .info .score {
+	padding-top: 0.833333em;
+	font-size: 0.857143em;
+}
+.member .info .score span {
+	color: #ff3333;
+}
+.scoreDetail {
+	padding: 0.9375em 0;
+	font-size: 1.142857em;
+}
+
+
+
+
+
+/* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width:767px){
+	.main {
+		font-size: 28px;
+	}
+}
+/* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width:639px){
+	.main {
+		font-size: 21px;
+	}
+}
+/* 窗口宽度<480,设计宽度=320 */
+@media screen and (max-width:479px){
+	.main {
+		font-size: 14px;
+	}
+}
