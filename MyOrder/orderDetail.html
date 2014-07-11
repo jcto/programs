@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta content="telephone=no" name="format-detection" />
+
+		<title>订单详情</title>
+		<link rel="stylesheet" type="text/css" href="css/mo.css"/>
+	</head>
+	<body>
+		<div class="main">
+			<section class="f-c999 user-info">
+				<div class="user">
+					收货人：<span class="name">兰花草</span><span class="phone">18554568719</span>
+				</div>
+				<p class="address">
+					收货地址：江苏省南京市公路楼区徐庄软件园高新开发区王庄湖3栋2904室
+				</p>
+			</section>
+			<section class="orderli">
+				<a href="#">
+					<div class="m-itm g-wrap">
+						<img src="img/m2.png" class="img" />
+						<div class="con detail">
+							<p class="desc">
+								地亚红豆杉小盆栽办公室之无防辐射商品名称数字最多14个
+							</p>
+							<p class="f-c999">
+								单价：<span class="price">¥1556.00</span>数量：<span class="amount">2</span>
+							</p>
+							<p class="f-c999 origin">
+								苏宁自营
+							</p>
+						</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="m-itm g-wrap">
+						<img src="img/m3.png" class="img" />
+						<div class="con detail">
+							<p class="desc">
+								地亚红豆杉小盆栽办公室之无防辐射商品名称数字最多14个
+							</p>
+							<p class="f-c999">
+								单价：<span class="price">¥1556.00</span>数量：<span class="amount">2</span>
+							</p>
+							<p class="f-c999 origin">
+								苏宁自营
+							</p>
+						</div>
+					</div>
+				</a>
+				<a class="other f-hide" href="orderDetail.html">
+					<div class="m-itm g-wrap">
+						<img src="img/m2.png" class="img" />
+						<div class="con detail">
+							<p class="desc">
+								地亚红豆杉小盆栽办公室之无防辐射商品名称数字最多14个
+							</p>
+							<p class="f-c999">
+								单价：<span class="price">¥1556.00</span>数量：<span class="amount">2</span>
+							</p>
+							<p class="f-c999 origin">
+								苏宁自营
+							</p>
+						</div>
+					</div>
+				</a>
+				<a class="other f-hide" href="orderDetail.html">
+					<div class="m-itm g-wrap">
+						<img src="img/m3.png" class="img" />
+						<div class="con detail">
+							<p class="desc">
+								地亚红豆杉小盆栽办公室之无防辐射商品名称数字最多14个
+							</p>
+							<p class="f-c999">
+								单价：<span class="price">¥1556.00</span>数量：<span class="amount">2</span>
+							</p>
+							<p class="f-c999 origin">
+								苏宁自营
+							</p>
+						</div>
+					</div>
+				</a>
+				<a class="other f-hide" href="orderDetail.html">
+					<div class="m-itm g-wrap">
+						<img src="img/m2.png" class="img" />
+						<div class="con detail">
+							<p class="desc">
+								地亚红豆杉小盆栽办公室之无防辐射商品名称数字最多14个
+							</p>
+							<p class="f-c999">
+								单价：<span class="price">¥1556.00</span>数量：<span class="amount">2</span>
+							</p>
+							<p class="f-c999 origin">
+								苏宁自营
+							</p>
+						</div>
+					</div>
+				</a>
+				<div class="more g-wrap">
+					<a href="javascrip:void(0);" class="load-btn">
+						显示其余的3件
+					</a>
+				</div>
+				<div class="order-charge">
+					合计：<span class="f-price">¥156.00</span><span class="state">已支付</span>
+				</div>
+			</section>
+			<section class="m-name-value order-detail">
+				<div class="uli">
+					<span class="labl">订单号：</span>1258899898898
+				</div>
+				<div class="uli">
+					<span class="labl">下单时间：</span>2014-07-15
+				</div>
+				<div class="uli">
+					<span class="labl">支付方式：</span>莫莫莫
+				</div>
+				<div class="uli">
+					<span class="labl">送货方式：</span>快递公司
+				</div>
+				<div class="uli">
+					<span class="labl">发票类型：</span>增值税发票
+				</div>
+				<div class="uli">
+					<span class="labl">发票抬头：</span>苏宁软件技术有限公司
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script>
+			//		这里是示例 放到自己需要放的地方
+			$(".more .load-btn").bind('click', function() {
+				$(this).parent('.more').hide().siblings("a.other").fadeIn();
+			});
+		</script>
+	</body>
+</html>
